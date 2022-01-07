@@ -11,9 +11,6 @@ import java.time.OffsetDateTime;
 import java.util.Arrays;
 import java.util.UUID;
 
-/**
- * Created by jt on 3/14/20.
- */
 @Component
 public class InventoryHandler {
     public Mono<ServerResponse> listInventory(ServerRequest request){
